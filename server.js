@@ -18,5 +18,5 @@ bot.onText(/\/Listar/, function (msg, match) {
 
 bot.onText(/\/help/, function(msg, match) {
   var fromId = msg.from.id;
-  bot.sendMessage(fromId, "Lista de comandos disponíveis:<br>/Listar - lista todos os datasets do portal");
+  bot.sendMessage(fromId, "Lista de comandos disponíveis:<br>/listar - lista todos os datasets do portal");
 });
