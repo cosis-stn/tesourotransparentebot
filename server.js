@@ -11,7 +11,7 @@ bot.onText(/\/Listar/, function (msg, match) {
   var fromId = msg.from.id;
   ckan.exec("package_list", function(err, resp) {
 	  bot.sendMessage(fromId, resp);
-  }  
+  });
 });
 
 
